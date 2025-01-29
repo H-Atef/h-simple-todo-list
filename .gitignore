@@ -1,1 +1,16 @@
+# Ignore migration files
+*/migrations/*
+!*/migrations/__init__.py 
+
+# Ignore SQLite databases if used
+*.db
+*.sqlite3
+
+# Ignore Python bytecode files
 __pycache__/
+
+# Ignore environment variable files
+.env
+
+# Ignore virtual environment
+venv/
